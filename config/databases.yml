@@ -5,6 +5,9 @@ all:
   doctrine:
     class: sfDoctrineDatabase
     param:
-      dsn:      mysql:host=localhost;dbname=sf14
-      username: root
-      password: 
+      dsn:      mysql:host=localhost;dbname=symfonyband
+      username: symfonyband
+      password: symfonyband
+      attributes:
+        default_table_charset: utf8
+        default_table_collate: utf8_unicode_ci
