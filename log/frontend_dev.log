@@ -52,3 +52,251 @@ Feb 28 17:27:23 symfony [info] {sfWebDebugLogger} Action "Page/Show" 28.08 ms (1
 Feb 28 17:27:23 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.41 ms (2)
 Feb 28 17:27:23 symfony [info] {sfWebDebugLogger} View "Success" for "Page/Show" 8.99 ms (1)
 Feb 28 17:27:23 symfony [info] {sfWebResponse} Send content (33757 o)
+Feb 28 17:41:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /page/top with parameters array (  'module' => 'page',  'action' => 'top',)
+Feb 28 17:41:42 symfony [info] {sfFrontWebController} Action "page/top" does not exist
+Feb 28 17:41:42 symfony [err] {sfError404Exception} Action "page/top" does not exist.
+Feb 28 17:41:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 28 17:41:42 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:41:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:41:42 symfony [info] {sfWebDebugLogger} Configuration 45.60 ms (5)
+Feb 28 17:41:42 symfony [info] {sfWebDebugLogger} Factories 52.75 ms (1)
+Feb 28 17:42:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /page/top with parameters array (  'module' => 'page',  'action' => 'top',)
+Feb 28 17:42:52 symfony [info] {sfFrontWebController} Action "page/top" does not exist
+Feb 28 17:42:52 symfony [err] {sfError404Exception} Action "page/top" does not exist.
+Feb 28 17:42:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 28 17:42:52 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:42:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:42:52 symfony [info] {sfWebDebugLogger} Configuration 0.99 ms (5)
+Feb 28 17:42:52 symfony [info] {sfWebDebugLogger} Factories 37.78 ms (1)
+Feb 28 17:43:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /page/top with parameters array (  'module' => 'page',  'action' => 'top',)
+Feb 28 17:43:05 symfony [info] {sfFrontWebController} Action "page/top" does not exist
+Feb 28 17:43:05 symfony [err] {sfError404Exception} Action "page/top" does not exist.
+Feb 28 17:43:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 28 17:43:05 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:43:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:43:05 symfony [info] {sfWebDebugLogger} Configuration 0.43 ms (5)
+Feb 28 17:43:05 symfony [info] {sfWebDebugLogger} Factories 23.27 ms (1)
+Feb 28 17:44:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /page/top with parameters array (  'module' => 'page',  'action' => 'top',)
+Feb 28 17:44:44 symfony [info] {sfFrontWebController} Action "page/top" does not exist
+Feb 28 17:44:44 symfony [err] {sfError404Exception} Action "page/top" does not exist.
+Feb 28 17:44:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 28 17:44:44 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:44:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:44:44 symfony [info] {sfWebDebugLogger} Configuration 44.77 ms (5)
+Feb 28 17:44:44 symfony [info] {sfWebDebugLogger} Factories 51.52 ms (1)
+Feb 28 17:45:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /page/show with parameters array (  'module' => 'page',  'action' => 'show',)
+Feb 28 17:45:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 28 17:45:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 28 17:45:40 symfony [info] {PageActions} Call "PageActions->executeShow()"
+Feb 28 17:45:40 symfony [err] {Doctrine_Table_Exception} You must specify the value to findOneBy
+Feb 28 17:45:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 28 17:45:40 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:45:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:45:40 symfony [info] {sfWebDebugLogger} Configuration 11.35 ms (9)
+Feb 28 17:45:40 symfony [info] {sfWebDebugLogger} Factories 25.06 ms (1)
+Feb 28 17:45:40 symfony [info] {sfWebDebugLogger} Action "page/show" 42.17 ms (1)
+Feb 28 17:45:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /page/tip with parameters array (  'module' => 'page',  'action' => 'tip',)
+Feb 28 17:45:49 symfony [info] {sfFrontWebController} Action "page/tip" does not exist
+Feb 28 17:45:49 symfony [err] {sfError404Exception} Action "page/tip" does not exist.
+Feb 28 17:45:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 28 17:45:49 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:45:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:45:49 symfony [info] {sfWebDebugLogger} Configuration 0.40 ms (5)
+Feb 28 17:45:49 symfony [info] {sfWebDebugLogger} Factories 25.19 ms (1)
+Feb 28 17:45:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /page/top with parameters array (  'module' => 'page',  'action' => 'top',)
+Feb 28 17:45:53 symfony [info] {sfFrontWebController} Action "page/top" does not exist
+Feb 28 17:45:53 symfony [err] {sfError404Exception} Action "page/top" does not exist.
+Feb 28 17:45:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 28 17:45:53 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:45:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:45:53 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (5)
+Feb 28 17:45:53 symfony [info] {sfWebDebugLogger} Factories 20.68 ms (1)
+Feb 28 17:47:29 symfony [info] {sfPatternRouting} Match route "page_show" (/page/:slug) for /page/top with parameters array (  'module' => 'Page',  'action' => 'Show',  'slug' => 'top',)
+Feb 28 17:47:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 28 17:47:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 28 17:47:29 symfony [info] {PageActions} Call "PageActions->executeShow()"
+Feb 28 17:47:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 28 17:47:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.title AS p__title, p.body AS p__body, p.category AS p__category, p.created_at AS p__created_at, p.updated_at AS p__updated_at, p.slug AS p__slug FROM page p WHERE (p.slug = ?) LIMIT 1 - (top)
+Feb 28 17:47:29 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/modules/Page/templates/ShowSuccess.php"
+Feb 28 17:47:29 symfony [info] {sfPHPView} Decorate content with "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:47:29 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:47:29 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:47:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 28 17:47:29 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:47:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:47:29 symfony [info] {sfWebDebugLogger} Configuration 51.87 ms (9)
+Feb 28 17:47:29 symfony [info] {sfWebDebugLogger} Factories 51.27 ms (1)
+Feb 28 17:47:29 symfony [info] {sfWebDebugLogger} Action "Page/Show" 30.07 ms (1)
+Feb 28 17:47:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.44 ms (2)
+Feb 28 17:47:29 symfony [info] {sfWebDebugLogger} View "Success" for "Page/Show" 9.30 ms (1)
+Feb 28 17:47:29 symfony [info] {sfWebResponse} Send content (33803 o)
+Feb 28 17:48:18 symfony [info] {sfPatternRouting} Match route "page_show" (/page/:slug) for /page/aboutus with parameters array (  'module' => 'Page',  'action' => 'Show',  'slug' => 'aboutus',)
+Feb 28 17:48:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 28 17:48:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 28 17:48:18 symfony [info] {PageActions} Call "PageActions->executeShow()"
+Feb 28 17:48:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 28 17:48:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.title AS p__title, p.body AS p__body, p.category AS p__category, p.created_at AS p__created_at, p.updated_at AS p__updated_at, p.slug AS p__slug FROM page p WHERE (p.slug = ?) LIMIT 1 - (aboutus)
+Feb 28 17:48:18 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/modules/Page/templates/ShowSuccess.php"
+Feb 28 17:48:21 symfony [info] {sfPatternRouting} Match route "page_show" (/page/:slug) for /page/top with parameters array (  'module' => 'Page',  'action' => 'Show',  'slug' => 'top',)
+Feb 28 17:48:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 28 17:48:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 28 17:48:21 symfony [info] {PageActions} Call "PageActions->executeShow()"
+Feb 28 17:48:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 28 17:48:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.title AS p__title, p.body AS p__body, p.category AS p__category, p.created_at AS p__created_at, p.updated_at AS p__updated_at, p.slug AS p__slug FROM page p WHERE (p.slug = ?) LIMIT 1 - (top)
+Feb 28 17:48:21 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/modules/Page/templates/ShowSuccess.php"
+Feb 28 17:48:21 symfony [info] {sfPHPView} Decorate content with "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:48:21 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:48:21 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:48:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 28 17:48:21 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:48:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:48:21 symfony [info] {sfWebDebugLogger} Configuration 2.00 ms (9)
+Feb 28 17:48:21 symfony [info] {sfWebDebugLogger} Factories 36.05 ms (1)
+Feb 28 17:48:21 symfony [info] {sfWebDebugLogger} Action "Page/Show" 41.30 ms (1)
+Feb 28 17:48:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.39 ms (2)
+Feb 28 17:48:21 symfony [info] {sfWebDebugLogger} View "Success" for "Page/Show" 16.70 ms (1)
+Feb 28 17:48:21 symfony [info] {sfWebResponse} Send content (33771 o)
+Feb 28 17:57:30 symfony [err] {InvalidArgumentException} Unable to parse file "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/config/routing.yml": Unable to parse line 24 (Contact GitHub API Training Shop Blog About).
+Feb 28 17:57:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 28 17:57:30 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:57:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:57:30 symfony [info] {sfWebDebugLogger} Configuration 25.77 ms (4)
+Feb 28 17:57:30 symfony [info] {sfWebDebugLogger} Factories 72.09 ms (1)
+Feb 28 17:57:39 symfony [err] {InvalidArgumentException} Unable to parse file "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/config/routing.yml": Unable to parse line 24 (Contact GitHub API Training Shop Blog About).
+Feb 28 17:57:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 28 17:57:39 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:57:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:57:39 symfony [info] {sfWebDebugLogger} Configuration 0.42 ms (5)
+Feb 28 17:57:39 symfony [info] {sfWebDebugLogger} Factories 58.99 ms (1)
+Feb 28 17:58:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'Page',  'action' => 'Show',  'slug' => 'top',)
+Feb 28 17:58:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 28 17:58:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 28 17:58:11 symfony [info] {PageActions} Call "PageActions->executeShow()"
+Feb 28 17:58:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 28 17:58:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.title AS p__title, p.body AS p__body, p.category AS p__category, p.created_at AS p__created_at, p.updated_at AS p__updated_at, p.slug AS p__slug FROM page p WHERE (p.slug = ?) LIMIT 1 - (top)
+Feb 28 17:58:11 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/modules/Page/templates/ShowSuccess.php"
+Feb 28 17:58:11 symfony [info] {sfPHPView} Decorate content with "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:58:11 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:58:11 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:58:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 28 17:58:11 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:58:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:58:11 symfony [info] {sfWebDebugLogger} Configuration 51.56 ms (9)
+Feb 28 17:58:11 symfony [info] {sfWebDebugLogger} Factories 53.86 ms (1)
+Feb 28 17:58:11 symfony [info] {sfWebDebugLogger} Action "Page/Show" 29.32 ms (1)
+Feb 28 17:58:11 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.49 ms (2)
+Feb 28 17:58:11 symfony [info] {sfWebDebugLogger} View "Success" for "Page/Show" 10.69 ms (1)
+Feb 28 17:58:11 symfony [info] {sfWebResponse} Send content (33777 o)
+Feb 28 17:58:22 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/top" (/).
+Feb 28 17:58:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 28 17:58:22 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:58:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:58:22 symfony [info] {sfWebDebugLogger} Configuration 0.58 ms (5)
+Feb 28 17:58:22 symfony [info] {sfWebDebugLogger} Factories 23.48 ms (1)
+Feb 28 17:58:35 symfony [info] {sfPatternRouting} Match route "page_show" (/page/:slug) for /page/top with parameters array (  'module' => 'Page',  'action' => 'Show',  'slug' => 'top',)
+Feb 28 17:58:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 28 17:58:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 28 17:58:35 symfony [info] {PageActions} Call "PageActions->executeShow()"
+Feb 28 17:58:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 28 17:58:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.title AS p__title, p.body AS p__body, p.category AS p__category, p.created_at AS p__created_at, p.updated_at AS p__updated_at, p.slug AS p__slug FROM page p WHERE (p.slug = ?) LIMIT 1 - (top)
+Feb 28 17:58:35 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/modules/Page/templates/ShowSuccess.php"
+Feb 28 17:58:35 symfony [info] {sfPHPView} Decorate content with "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:58:35 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:58:35 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:58:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 28 17:58:35 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:58:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:58:35 symfony [info] {sfWebDebugLogger} Configuration 0.68 ms (9)
+Feb 28 17:58:35 symfony [info] {sfWebDebugLogger} Factories 21.16 ms (1)
+Feb 28 17:58:35 symfony [info] {sfWebDebugLogger} Action "Page/Show" 29.86 ms (1)
+Feb 28 17:58:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.34 ms (2)
+Feb 28 17:58:35 symfony [info] {sfWebDebugLogger} View "Success" for "Page/Show" 8.00 ms (1)
+Feb 28 17:58:35 symfony [info] {sfWebResponse} Send content (33792 o)
+Feb 28 17:58:55 symfony [info] {sfPatternRouting} Match route "news_list" (/news) for /news with parameters array (  'module' => 'Page',  'action' => 'NewsList',)
+Feb 28 17:58:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 28 17:58:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 28 17:58:55 symfony [info] {PageActions} Call "PageActions->executeNewsList()"
+Feb 28 17:58:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 28 17:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.title AS p__title, p.body AS p__body, p.category AS p__category, p.created_at AS p__created_at, p.updated_at AS p__updated_at, p.slug AS p__slug FROM page p WHERE (p.category = ?) - (news)
+Feb 28 17:58:55 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/modules/Page/templates/NewsListSuccess.php"
+Feb 28 17:58:55 symfony [info] {sfPHPView} Decorate content with "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:58:55 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:58:55 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:58:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 28 17:58:55 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:58:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:58:55 symfony [info] {sfWebDebugLogger} Configuration 0.71 ms (9)
+Feb 28 17:58:55 symfony [info] {sfWebDebugLogger} Factories 22.53 ms (1)
+Feb 28 17:58:55 symfony [info] {sfWebDebugLogger} Action "Page/NewsList" 29.57 ms (1)
+Feb 28 17:58:55 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.44 ms (2)
+Feb 28 17:58:55 symfony [info] {sfWebDebugLogger} View "Success" for "Page/NewsList" 9.33 ms (1)
+Feb 28 17:58:55 symfony [info] {sfWebResponse} Send content (34501 o)
+Feb 28 17:59:02 symfony [info] {sfPatternRouting} Match route "news_show" (/news/:slug) for /news/20101015-homepage-open with parameters array (  'module' => 'Page',  'action' => 'NewsShow',  'slug' => '20101015-homepage-open',)
+Feb 28 17:59:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 28 17:59:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 28 17:59:02 symfony [info] {PageActions} Call "PageActions->executeNewsShow()"
+Feb 28 17:59:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 28 17:59:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.title AS p__title, p.body AS p__body, p.category AS p__category, p.created_at AS p__created_at, p.updated_at AS p__updated_at, p.slug AS p__slug FROM page p WHERE (p.slug = ?) LIMIT 1 - (20101015-homepage-open)
+Feb 28 17:59:02 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/modules/Page/templates/NewsShowSuccess.php"
+Feb 28 17:59:02 symfony [info] {sfPHPView} Decorate content with "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:59:02 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:59:02 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:59:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 28 17:59:02 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:59:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:59:02 symfony [info] {sfWebDebugLogger} Configuration 0.70 ms (9)
+Feb 28 17:59:02 symfony [info] {sfWebDebugLogger} Factories 21.72 ms (1)
+Feb 28 17:59:02 symfony [info] {sfWebDebugLogger} Action "Page/NewsShow" 28.12 ms (1)
+Feb 28 17:59:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.43 ms (2)
+Feb 28 17:59:02 symfony [info] {sfWebDebugLogger} View "Success" for "Page/NewsShow" 11.22 ms (1)
+Feb 28 17:59:02 symfony [info] {sfWebResponse} Send content (34443 o)
+Feb 28 17:59:12 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/news/page/about" (/).
+Feb 28 17:59:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 28 17:59:12 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:59:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:59:12 symfony [info] {sfWebDebugLogger} Configuration 0.36 ms (5)
+Feb 28 17:59:12 symfony [info] {sfWebDebugLogger} Factories 27.09 ms (1)
+Feb 28 17:59:15 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/news/page/aboutus" (/).
+Feb 28 17:59:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 28 17:59:15 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:59:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:59:15 symfony [info] {sfWebDebugLogger} Configuration 0.45 ms (5)
+Feb 28 17:59:15 symfony [info] {sfWebDebugLogger} Factories 24.15 ms (1)
+Feb 28 17:59:24 symfony [info] {sfPatternRouting} Match route "page_show" (/page/:slug) for /page/about with parameters array (  'module' => 'Page',  'action' => 'Show',  'slug' => 'about',)
+Feb 28 17:59:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 28 17:59:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 28 17:59:24 symfony [info] {PageActions} Call "PageActions->executeShow()"
+Feb 28 17:59:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 28 17:59:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.title AS p__title, p.body AS p__body, p.category AS p__category, p.created_at AS p__created_at, p.updated_at AS p__updated_at, p.slug AS p__slug FROM page p WHERE (p.slug = ?) LIMIT 1 - (about)
+Feb 28 17:59:24 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/modules/Page/templates/ShowSuccess.php"
+Feb 28 17:59:24 symfony [info] {sfPHPView} Decorate content with "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:59:24 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:59:24 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:59:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 28 17:59:24 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:59:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:59:24 symfony [info] {sfWebDebugLogger} Configuration 0.91 ms (9)
+Feb 28 17:59:24 symfony [info] {sfWebDebugLogger} Factories 22.79 ms (1)
+Feb 28 17:59:24 symfony [info] {sfWebDebugLogger} Action "Page/Show" 32.83 ms (1)
+Feb 28 17:59:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.43 ms (2)
+Feb 28 17:59:24 symfony [info] {sfWebDebugLogger} View "Success" for "Page/Show" 9.22 ms (1)
+Feb 28 17:59:24 symfony [info] {sfWebResponse} Send content (33812 o)
+Feb 28 17:59:32 symfony [info] {sfPatternRouting} Match route "page_show" (/page/:slug) for /page/joinus with parameters array (  'module' => 'Page',  'action' => 'Show',  'slug' => 'joinus',)
+Feb 28 17:59:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 28 17:59:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 28 17:59:32 symfony [info] {PageActions} Call "PageActions->executeShow()"
+Feb 28 17:59:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 28 17:59:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.title AS p__title, p.body AS p__body, p.category AS p__category, p.created_at AS p__created_at, p.updated_at AS p__updated_at, p.slug AS p__slug FROM page p WHERE (p.slug = ?) LIMIT 1 - (joinus)
+Feb 28 17:59:32 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/modules/Page/templates/ShowSuccess.php"
+Feb 28 17:59:32 symfony [info] {sfPHPView} Decorate content with "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:59:32 symfony [info] {sfPHPView} Render "/Users/ueki/Dropbox/MAMP/htdocs/sf14/apps/frontend/templates/layout.php"
+Feb 28 17:59:32 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:59:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 28 17:59:32 symfony [warning] {sfWebDebugLogger}  Warning at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/ueki/Dropbox/MAMP/htdocs/sf14/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 28 17:59:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 28 17:59:32 symfony [info] {sfWebDebugLogger} Configuration 0.68 ms (9)
+Feb 28 17:59:32 symfony [info] {sfWebDebugLogger} Factories 23.60 ms (1)
+Feb 28 17:59:32 symfony [info] {sfWebDebugLogger} Action "Page/Show" 32.06 ms (1)
+Feb 28 17:59:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.34 ms (2)
+Feb 28 17:59:32 symfony [info] {sfWebDebugLogger} View "Success" for "Page/Show" 9.06 ms (1)
+Feb 28 17:59:32 symfony [info] {sfWebResponse} Send content (33835 o)
