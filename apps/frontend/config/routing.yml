@@ -22,3 +22,6 @@ inquiry_complete:
   url:      /inquiry/complete
   param:    { module: Inquiry, action: Complete }
 
+inquiry_complete:
+  url:      /inquiry/complete
+  param:    { module: Inquiry, action: Complete }
