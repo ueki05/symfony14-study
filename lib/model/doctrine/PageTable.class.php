@@ -7,13 +7,22 @@
  */
 class PageTable extends Doctrine_Table
 {
-    /**
-     * Returns an instance of this class.
-     *
-     * @return object PageTable
-     */
-    public static function getInstance()
-    {
-        return Doctrine_Core::getTable('Page');
-    }
+  /**
+   * Returns an instance of this class.
+   *
+   * @return object PageTable
+   */
+  public static function getInstance()
+  {
+    return Doctrine_Core::getTable('Page');
+  }
+
+  public static function queryLatestNews()
+  {
+    return self::getInstance()->createQuery()
+      ->from('Page p')
+      ->where('p.category = ?', 'news')
+      ;
+  }
+
 }
