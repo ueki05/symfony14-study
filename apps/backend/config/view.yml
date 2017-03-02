@@ -6,13 +6,13 @@ default:
     content-type: text/html
 
   metas:
-    #title:        symfony楽団
-    #description:  クラシック音楽を演奏するグループです
-    #keywords:     symfony, 楽団, シンフォニー, 募集, 紹介
-    #language:     ja
+    #title:        symfony project
+    #description:  symfony project
+    #keywords:     symfony, project
+    #language:     en
     #robots:       index, follow
 
-  stylesheets:    [reset.css, main.css, text.css, 960.css]
+  stylesheets:    [main.css]
 
   javascripts:    []
 
